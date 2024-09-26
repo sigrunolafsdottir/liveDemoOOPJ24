@@ -1,4 +1,4 @@
-package PepparkakaDemo;
+package Lektion1.Bilregister.PepparkakaDemo;
 
 public class Pepparkaka extends Godsak{
 

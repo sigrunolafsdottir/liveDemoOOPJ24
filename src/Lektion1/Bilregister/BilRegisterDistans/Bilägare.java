@@ -1,4 +1,4 @@
-package BilRegisterDistans;
+package Lektion1.Bilregister.BilRegisterDistans;
 
 public class Bilägare extends Person {
 

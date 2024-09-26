@@ -1,4 +1,4 @@
-package Bilregister;
+package Lektion1.Bilregister;
 
 public class BilÄgare extends Person{
 

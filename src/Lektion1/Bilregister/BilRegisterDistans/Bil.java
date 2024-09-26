@@ -1,4 +1,4 @@
-package BilRegisterDistans;
+package Lektion1.Bilregister.BilRegisterDistans;
 
 public class Bil {
 
@@ -20,6 +20,8 @@ public class Bil {
         this.märke = märke;
         this.bilägare = bilägare;
     }
+
+    public Bil(){}
 
     public String getRegNr() {
         return regNr;

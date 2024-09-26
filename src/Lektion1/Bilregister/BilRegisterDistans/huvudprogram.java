@@ -1,4 +1,4 @@
-package BilRegisterDistans;
+package Lektion1.Bilregister.BilRegisterDistans;
 
 public class huvudprogram {
 
@@ -6,6 +6,7 @@ public class huvudprogram {
 
     public huvudprogram() {
         System.out.println(minVariabel);
+
 
         Bilägare bosse = new Bilägare("Bosse", 67, true);
         Bilägare anna = new Bilägare("Anna", 27, false);

@@ -1,4 +1,4 @@
-package SP;
+package Lektion1.Bilregister.SP;
 
 public class SPMain {
 
@@ -21,6 +21,8 @@ public class SPMain {
     public static void main(String[] args) {
         SPMain main = new SPMain();
     }
+
+
 
 
 }

@@ -1,6 +1,6 @@
-package Bilregister;
+package Lektion1.Bilregister;
 
-import Bilregister.details.SomeOtherFile;
+import Lektion1.Bilregister.details.SomeOtherFile;
 
 public class Bil {
 

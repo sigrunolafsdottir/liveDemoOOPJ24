@@ -1,4 +1,4 @@
-package SP;
+package Lektion1.Bilregister.SP;
 
 public class Person {
 

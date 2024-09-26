@@ -1,6 +1,6 @@
-package SP;
+package Lektion1.Bilregister.SP;
 
-import BilRegisterDistans.Bil;
+import Lektion1.Bilregister.BilRegisterDistans.Bil;
 
 public class testBil {
 
