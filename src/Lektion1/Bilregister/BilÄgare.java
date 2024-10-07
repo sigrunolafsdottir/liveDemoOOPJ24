@@ -8,4 +8,12 @@ public class BilÄgare extends Person{
         super(name, address, age);
         this.harKeps = harKeps;
     }
+
+    public boolean isHarKeps() {
+        return harKeps;
+    }
+
+    public void setHarKeps(boolean harKeps) {
+        this.harKeps = harKeps;
+    }
 }

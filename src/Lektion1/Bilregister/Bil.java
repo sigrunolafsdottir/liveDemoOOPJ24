@@ -22,4 +22,44 @@ public class Bil {
     public void setNyBilägare(BilÄgare bilägare){
         this.bilÄgare = bilägare;
     }
+
+    public String getRegNr() {
+        return regNr;
+    }
+
+    public void setRegNr(String regNr) {
+        this.regNr = regNr;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getMärke() {
+        return märke;
+    }
+
+    public void setMärke(String märke) {
+        this.märke = märke;
+    }
+
+    public BilÄgare getBilÄgare() {
+        return bilÄgare;
+    }
+
+    public void setBilÄgare(BilÄgare bilÄgare) {
+        this.bilÄgare = bilÄgare;
+    }
+
+    public SomeOtherFile getSomeOtherFile() {
+        return someOtherFile;
+    }
+
+    public void setSomeOtherFile(SomeOtherFile someOtherFile) {
+        this.someOtherFile = someOtherFile;
+    }
 }
