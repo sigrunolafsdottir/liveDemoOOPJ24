@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1450df3b-820a-4e18-9699-cb112efc1f91" name="Changes" comment="initial committ">
-      <change afterPath="$PROJECT_DIR$/src/BilRegisterDistans/Bil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilRegisterDistans/Bilägare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilRegisterDistans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilRegisterDistans/Veteranbilsägare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BilRegisterDistans/huvudprogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SP/testBil.java" afterDir="false" />
+    <list default="true" id="1450df3b-820a-4e18-9699-cb112efc1f91" name="Changes" comment="Lektion 4, TDD, Sten sax påse, livekodning distans">
+      <change afterPath="$PROJECT_DIR$/src/Lektion4/Övningsuppgift2/BilUträkning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lektion4/Övnuppg1a/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lektion4/Övnuppg1a/IFigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lektion4/Övnuppg1a/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion1/Bilregister/BilÄgareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion1/Bilregister/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion4/StenSaxPåse/CommunicationUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion4/StenSaxPåse/GameUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion4/Övningsuppgift2/BilUträkningsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion4/Övnuppg1a/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lektion4/Övnuppg1a/SquareTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveDemo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,18 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sigrunolafsdottir"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sigrunolafsdottir&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sigrunolafsdottir/liveDemoOOPJ24.git",
-    "accountId": "f783c990-b0ae-4fe0-89cf-adf6b5581c52"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sigrunolafsdottir/liveDemoOOPJ24.git&quot;,
+    &quot;accountId&quot;: &quot;f783c990-b0ae-4fe0-89cf-adf6b5581c52&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,39 +60,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.PepparkakaMain.executor": "Run",
-    "Application.SPMain.executor": "Run",
-    "Application.huvudprogram.executor": "Run",
-    "Application.testBil.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BilUträkning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lektion2.ÖvnUpg3_Livekodning_PP.huvudprogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lektion2.ÖvnUppg3LivekodningDistans.Uppg3d.huvudprogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lektion2.ÖvnUppg3LivekodningDistans.huvudprogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PepparkakaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SPMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.huvudprogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainprog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testBil.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.All in liveDemo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilUträkningsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilUträkningsTest.testAntalMilSenasteÅret.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilUträkningsTest.testGasPerMile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilUträkningsTest.testPrintOut.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilUträkningsTest.testPrintOutGas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BilÄgareTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CircleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CircleTest.testArea.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CircleTest.testCircumference.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommunicationUtil.testParseUserInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommunicationUtilTest.testParseUserInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EvaluatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EvaluatorTest.testEvaluate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameLogicTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameLogicTest.testRandomSeed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameLogicTest.testRandomSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameSymbolTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameSymbolTest.testSten.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameUtilTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameUtilTest.testGetRandomNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameUtilTest.testGetRandomSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.getName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.setName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlayerTest.currentSymbolTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlayerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlayerTest.isComputerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlayerTest.scoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SquareTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SquareTest.testCircumference.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/s_ola/Dropbox/Jobb/OOochJava/Sprint2/kod/IntelliJ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.huvudprogram">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="liveDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PepparkakaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PepparkakaDemo.PepparkakaMain" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\OOochJava\Sprint1\Kod\livekodningDag1PP\liveDemo\src\Lektion2\ÖvnUppg3LivekodningDistans\Uppg3d" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\OOochJava\Sprint1\Kod\livekodningDag1PP\liveDemo\src\Lektion2\uppg2Fordon\uppg2c" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\OOochJava\Sprint1\Kod\livekodningDag1PP\liveDemo\src\Lektion2\uppg2Fordon\uppg2b" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lektion1.Bilregister" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BilUträkningsTest">
+    <configuration name="BilUträkning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion4.Övningsuppgift2.BilUträkning" />
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PepparkakaDemo.*" />
+          <option name="PATTERN" value="Lektion4.Övningsuppgift2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,52 +151,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SPMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SP.SPMain" />
+    <configuration name="BilUträkningsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SP.*" />
+          <option name="PATTERN" value="Lektion4.Övningsuppgift2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lektion4.Övningsuppgift2" />
+      <option name="MAIN_CLASS_NAME" value="Lektion4.Övningsuppgift2.BilUträkningsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="huvudprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BilRegisterDistans.huvudprogram" />
+    <configuration name="BilUträkningsTest.testGasPerMile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BilRegisterDistans.*" />
+          <option name="PATTERN" value="Lektion4.Övningsuppgift2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lektion4.Övningsuppgift2" />
+      <option name="MAIN_CLASS_NAME" value="Lektion4.Övningsuppgift2.BilUträkningsTest" />
+      <option name="METHOD_NAME" value="testGasPerMile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SP.testBil" />
+    <configuration name="BilUträkningsTest.testPrintOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SP.*" />
+          <option name="PATTERN" value="Lektion4.Övningsuppgift2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lektion4.Övningsuppgift2" />
+      <option name="MAIN_CLASS_NAME" value="Lektion4.Övningsuppgift2.BilUträkningsTest" />
+      <option name="METHOD_NAME" value="testPrintOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BilUträkningsTest.testPrintOutGas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="liveDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion4.Övningsuppgift2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lektion4.Övningsuppgift2" />
+      <option name="MAIN_CLASS_NAME" value="Lektion4.Övningsuppgift2.BilUträkningsTest" />
+      <option name="METHOD_NAME" value="testPrintOutGas" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.huvudprogram" />
-        <item itemvalue="Application.testBil" />
-        <item itemvalue="Application.PepparkakaMain" />
-        <item itemvalue="Application.SPMain" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BilUträkningsTest" />
+        <item itemvalue="Application.BilUträkning" />
+        <item itemvalue="JUnit.BilUträkningsTest.testPrintOutGas" />
+        <item itemvalue="JUnit.BilUträkningsTest.testPrintOut" />
+        <item itemvalue="JUnit.BilUträkningsTest.testGasPerMile" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +241,9 @@
       <option name="presentableId" value="Default" />
       <updated>1727168028425</updated>
       <workItem from="1727168029511" duration="9018000" />
-      <workItem from="1727245321115" duration="6151000" />
+      <workItem from="1727245321115" duration="56775000" />
+      <workItem from="1728544590959" duration="8896000" />
+      <workItem from="1728560960752" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="initial committ">
       <option name="closed" value="true" />
@@ -167,14 +253,91 @@
       <option name="project" value="LOCAL" />
       <updated>1727245242527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="livekodning med distansklassen">
+      <option name="closed" value="true" />
+      <created>1727254428303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727254428303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="livekodning med på platsklassen">
+      <option name="closed" value="true" />
+      <created>1727358471013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727358471013</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Husdemo tillagd">
+      <option name="closed" value="true" />
+      <created>1727683828840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727683828840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Uppg3 livekodning distans tillagd">
+      <option name="closed" value="true" />
+      <created>1727696646754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727696646754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lektion 4, TDD, Sten sax påse, livekodning distans">
+      <option name="closed" value="true" />
+      <created>1728291607880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728291607880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="d374ed4a-2479-4cc9-b0de-b4949a0cecdb" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="d374ed4a-2479-4cc9-b0de-b4949a0cecdb">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial committ" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial committ" />
+    <MESSAGE value="livekodning med distansklassen" />
+    <MESSAGE value="livekodning med på platsklassen" />
+    <MESSAGE value="Husdemo tillagd" />
+    <MESSAGE value="Uppg3 livekodning distans tillagd" />
+    <MESSAGE value="Lektion 4, TDD, Sten sax påse, livekodning distans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lektion 4, TDD, Sten sax påse, livekodning distans" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lektion4/Övningsuppgift2/BilUträkning.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
