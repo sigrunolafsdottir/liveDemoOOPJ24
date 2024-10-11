@@ -13,6 +13,9 @@ public class BilUträkningsTest {
     BilUträkning bt = new BilUträkning(mätarställningNu, mätarställningDå , bensinFörbrukningSenasteÅret);
 
 
+    //BilUträkning bt = new BilUträkning();
+
+
     //inhämtas i programmet:
     //indata: mätarställning nu, mätarställning för ett år sen, bensinförbrukning under året
     //beräkningar: deltaMätarställning, bensin per mil
@@ -20,6 +23,7 @@ public class BilUträkningsTest {
 
     @Test
     public void testAntalMilSenasteÅret() {
+        bt.testparam = true;
         double deltaMätarställning = bt.getMileageOverYear(mätarställningNu, mätarställningDå);
         assertEquals(2000.0, deltaMätarställning);
         assertNotEquals(1000.0, deltaMätarställning);

@@ -3,9 +3,19 @@ package Lektion4.Övningsuppgift2;
 import javax.swing.*;
 
 public class BilUträkning {
-    
+
+    public boolean testparam = false;  //används inte i detta exempel
+
     public BilUträkning(){
         //separera inläsningen
+
+        if (testparam){
+            //do one thing
+        }
+        else{
+            //do another thing
+        }
+
         Double mätarställningNu = Double.parseDouble(JOptionPane.showInputDialog("Mätarställning nu: ").trim());
         Double mätarställningFörEttÅrSen = Double.parseDouble(JOptionPane.showInputDialog("Mätarställning för ett år sen: ").trim());
         Double BensinförbrukningUnderÅret = Double.parseDouble(JOptionPane.showInputDialog("Bensinförbrukning under året:  ").trim());
