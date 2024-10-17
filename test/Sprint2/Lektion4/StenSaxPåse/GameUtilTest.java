@@ -1,4 +1,4 @@
-package Lektion4.StenSaxPåse;
+package Sprint2.Lektion4.StenSaxPåse;
 
 import org.junit.jupiter.api.Test;
 

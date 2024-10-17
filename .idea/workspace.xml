@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1450df3b-820a-4e18-9699-cb112efc1f91" name="Changes" comment="Lektion 4, TDD, på plats">
-      <change afterPath="$PROJECT_DIR$/src/Lektion4/ÖvnUppg2Uppdelad/CalculationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lektion4/ÖvnUppg2Uppdelad/Huvudprogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lektion4/ÖvnUppg2Uppdelad/PrintUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lektion4/ÖvnUppg2Uppdelad/CalculationUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lektion4/ÖvnUppg2Uppdelad/PrintUtilTest.java" afterDir="false" />
+    <list default="true" id="1450df3b-820a-4e18-9699-cb112efc1f91" name="Changes" comment="Cleanup, creating sprint packages">
+      <change afterPath="$PROJECT_DIR$/test/Sprint2/Lektion5/ÖvnUppg8/TemperatureCalculationUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Sprint2/Lektion5/ÖvnUppg8/TemperatureReadUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Sprint2/Lektion5/ÖvnUppg8/temp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lektion4/Övningsuppgift2/BilUträkning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lektion4/Övningsuppgift2/BilUträkning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Lektion4/Övningsuppgift2/BilUträkningsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Lektion4/Övningsuppgift2/BilUträkningsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprint2/Lektion5/ÖvnUppg8/huvudprogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprint2/Lektion5/ÖvnUppg8/huvudprogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion1/Bilregister/BilÄgareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint1/Lektion1/Bilregister/BilÄgareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion1/Bilregister/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint1/Lektion1/Bilregister/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/StenSaxPåse/CommunicationUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/StenSaxPåse/CommunicationUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/StenSaxPåse/GameUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/StenSaxPåse/GameUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/ÖvnUppg2Uppdelad/CalculationUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/ÖvnUppg2Uppdelad/CalculationUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/ÖvnUppg2Uppdelad/PrintUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/ÖvnUppg2Uppdelad/PrintUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/Övningsuppgift2/BilUträkningsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/Övningsuppgift2/BilUträkningsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/Övnuppg1a/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/Övnuppg1a/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Lektion4/Övnuppg1a/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Sprint2/Lektion4/Övnuppg1a/SquareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +69,10 @@
     "Application.Lektion2.ÖvnUppg3LivekodningDistans.Uppg3d.huvudprogram.executor": "Run",
     "Application.Lektion2.ÖvnUppg3LivekodningDistans.huvudprogram.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyReader.executor": "Run",
     "Application.PepparkakaMain.executor": "Run",
     "Application.SPMain.executor": "Run",
+    "Application.Sprint2.Lektion5.ÖvnUppg8.huvudprogram.executor": "Run",
     "Application.huvudprogram.executor": "Run",
     "Application.mainprog.executor": "Run",
     "Application.testBil.executor": "Run",
@@ -96,6 +104,7 @@
     "JUnit.GameUtilTest.testGetRandomNumber.executor": "Run",
     "JUnit.GameUtilTest.testGetRandomSymbol.executor": "Run",
     "JUnit.Lektion4.ÖvnUppg2Uppdelad in liveDemo.executor": "Run",
+    "JUnit.Lektion5.ÖvnUppg8 in liveDemo.executor": "Run",
     "JUnit.PersonTest.executor": "Run",
     "JUnit.PersonTest.getName.executor": "Run",
     "JUnit.PersonTest.setName.executor": "Run",
@@ -106,6 +115,12 @@
     "JUnit.PrintUtilTest.executor": "Run",
     "JUnit.SquareTest.executor": "Run",
     "JUnit.SquareTest.testCircumference.executor": "Run",
+    "JUnit.TemperatureCalculationUtilTest.executor": "Run",
+    "JUnit.TemperatureCalculationUtilTest.testAverage.executor": "Run",
+    "JUnit.TemperatureReadUtilTest.executor": "Run",
+    "JUnit.TemperatureReadUtilTest.parseLineTest.executor": "Run",
+    "JUnit.TemperatureReadUtilTest.readFromFileTest.executor": "Run",
+    "JUnit.TemperatureReadUtilTest.testStringListToDoubleList.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -115,7 +130,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/s_ola/Dropbox/Jobb/OOochJava/Sprint2/kod/IntelliJ",
+    "last_opened_file_path": "C:/Users/s_ola/Dropbox/Jobb/OOochJava/Sprint1/Kod/livekodningDag1PP/liveDemo/src/Sprint2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,13 +153,13 @@
       <recent name="Lektion1.Bilregister" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lektion4.ÖvnUppg2Uppdelad in liveDemo">
-    <configuration name="Huvudprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lektion4.ÖvnUppg2Uppdelad.Huvudprogram" />
+  <component name="RunManager" selected="JUnit.TemperatureReadUtilTest.readFromFileTest">
+    <configuration name="Sprint2.Lektion5.ÖvnUppg8.huvudprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sprint2.Lektion5.ÖvnUppg8.huvudprogram" />
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lektion4.ÖvnUppg2Uppdelad.*" />
+          <option name="PATTERN" value="Sprint2.Lektion5.ÖvnUppg8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,73 +167,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculationUtilTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="huvudprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion5.ÖvnUppg8.huvudprogram" />
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lektion4.ÖvnUppg2Uppdelad.*" />
+          <option name="PATTERN" value="Lektion5.ÖvnUppg8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lektion4.ÖvnUppg2Uppdelad" />
-      <option name="MAIN_CLASS_NAME" value="Lektion4.ÖvnUppg2Uppdelad.CalculationUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculationUtilTest.testGetGasPerMile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lektion5.ÖvnUppg8 in liveDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lektion4.ÖvnUppg2Uppdelad.*" />
+          <option name="PATTERN" value="Lektion5.ÖvnUppg8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lektion4.ÖvnUppg2Uppdelad" />
-      <option name="MAIN_CLASS_NAME" value="Lektion4.ÖvnUppg2Uppdelad.CalculationUtilTest" />
-      <option name="METHOD_NAME" value="testGetGasPerMile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lektion4.ÖvnUppg2Uppdelad in liveDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="liveDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lektion4.ÖvnUppg2Uppdelad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lektion4.ÖvnUppg2Uppdelad" />
+      <option name="PACKAGE_NAME" value="Lektion5.ÖvnUppg8" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TemperatureReadUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lektion4.ÖvnUppg2Uppdelad.*" />
+          <option name="PATTERN" value="Lektion5.ÖvnUppg8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lektion4.ÖvnUppg2Uppdelad" />
-      <option name="MAIN_CLASS_NAME" value="Lektion4.ÖvnUppg2Uppdelad.PrintUtilTest" />
+      <option name="PACKAGE_NAME" value="Lektion5.ÖvnUppg8" />
+      <option name="MAIN_CLASS_NAME" value="Lektion5.ÖvnUppg8.TemperatureReadUtilTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureReadUtilTest.readFromFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="liveDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sprint2.Lektion5.ÖvnUppg8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sprint2.Lektion5.ÖvnUppg8" />
+      <option name="MAIN_CLASS_NAME" value="Sprint2.Lektion5.ÖvnUppg8.TemperatureReadUtilTest" />
+      <option name="METHOD_NAME" value="readFromFileTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lektion4.ÖvnUppg2Uppdelad in liveDemo" />
-        <item itemvalue="Application.Huvudprogram" />
-        <item itemvalue="JUnit.PrintUtilTest" />
-        <item itemvalue="JUnit.CalculationUtilTest.testGetGasPerMile" />
-        <item itemvalue="JUnit.CalculationUtilTest (1)" />
+        <item itemvalue="JUnit.TemperatureReadUtilTest.readFromFileTest" />
+        <item itemvalue="Application.Sprint2.Lektion5.ÖvnUppg8.huvudprogram" />
+        <item itemvalue="Application.huvudprogram" />
+        <item itemvalue="JUnit.Lektion5.ÖvnUppg8 in liveDemo" />
+        <item itemvalue="JUnit.TemperatureReadUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +255,7 @@
       <workItem from="1727245321115" duration="56775000" />
       <workItem from="1728544590959" duration="8896000" />
       <workItem from="1728560960752" duration="4565000" />
-      <workItem from="1728631796305" duration="5938000" />
+      <workItem from="1728631796305" duration="19387000" />
     </task>
     <task id="LOCAL-00001" summary="initial committ">
       <option name="closed" value="true" />
@@ -300,7 +313,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728562444882</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lektion 4, TDD, distans, livekod övn uppg 2">
+      <option name="closed" value="true" />
+      <created>1728638118251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728638118251</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lektion 5, läsa från fil">
+      <option name="closed" value="true" />
+      <created>1728897057636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728897057636</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cleanup, creating sprint packages">
+      <option name="closed" value="true" />
+      <created>1728994345399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728994345399</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,13 +372,16 @@
     <MESSAGE value="Uppg3 livekodning distans tillagd" />
     <MESSAGE value="Lektion 4, TDD, Sten sax påse, livekodning distans" />
     <MESSAGE value="Lektion 4, TDD, på plats" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lektion 4, TDD, på plats" />
+    <MESSAGE value="Lektion 4, TDD, distans, livekod övn uppg 2" />
+    <MESSAGE value="Lektion 5, läsa från fil" />
+    <MESSAGE value="Cleanup, creating sprint packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup, creating sprint packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lektion4/Övningsuppgift2/BilUträkning.java</url>
+          <url>file://$PROJECT_DIR$/src/Sprint2/Lektion4/Övningsuppgift2/BilUträkning.java</url>
           <line>62</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

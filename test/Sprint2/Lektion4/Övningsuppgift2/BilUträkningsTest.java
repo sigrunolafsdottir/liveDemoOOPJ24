@@ -1,4 +1,4 @@
-package Lektion4.Övningsuppgift2;
+package Sprint2.Lektion4.Övningsuppgift2;
 
 
 import org.junit.jupiter.api.Test;

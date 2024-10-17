@@ -1,4 +1,4 @@
-package Lektion4.Övnuppg1a;
+package Sprint2.Lektion4.Övnuppg1a;
 
 import org.junit.jupiter.api.Test;
 

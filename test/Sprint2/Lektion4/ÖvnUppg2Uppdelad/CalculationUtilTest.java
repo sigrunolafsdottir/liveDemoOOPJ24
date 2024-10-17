@@ -1,4 +1,4 @@
-package Lektion4.ÖvnUppg2Uppdelad;
+package Sprint2.Lektion4.ÖvnUppg2Uppdelad;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package Lektion1.Bilregister;
+package Sprint1.Lektion1.Bilregister;
 
 import org.junit.jupiter.api.Test;
 
