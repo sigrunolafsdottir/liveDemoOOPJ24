@@ -7,5 +7,7 @@ public class playClass {
         System.out.println("testar att brancha ännu mer");
         System.out.println("doing stuff in master branch");
         System.out.println("doing stuff in playBranch");
+
+        System.out.println("DEMOBRANCH");
     }
 }
